@@ -37,6 +37,7 @@ export async function complete_prompt(prompt, max_tokens = 200) {
     response = await make_axios_request(prompt, max_tokens)
 
   } catch (error) { // console.log(error)
+		console.log(JSON.stringify(error, null, 2))
     console.log("Error #1, trying again")
     await sleep(10 * 1000); // 10s <- not working
     response = await make_axios_request(prompt, max_tokens)
