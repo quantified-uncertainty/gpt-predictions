@@ -1,10 +1,11 @@
 // Imports
 import axios from "axios"
 import * as dotenv from 'dotenv'
+
 // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 
 // Get dotenvs
-dotenv.config({path: "/home/loki/Documents/core/software/fresh/js/gpt-utils-node/.env"})
+dotenv.config({path: "/home/loki/Documents/core/software/fresh/js/gpt-predictions/.env"})
 const OPEN_AI_BEARER = process.env.OPEN_AI_BEARER;
 
 // Utils

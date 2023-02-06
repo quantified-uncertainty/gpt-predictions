@@ -34,7 +34,7 @@ export const predict_with_verbal_prompt_once = async (question) => {
   const answer_words = answer.split(" ")
   const extracted_probability = Number(answer_words[answer_words.length - 1].replace("%", "")) / 100
   const response = ({reasoning: answer, extracted_probability: extracted_probability})
-  // console.log(response)
+  // console.log(answer)
   return response
 
 }
