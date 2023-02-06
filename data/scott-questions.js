@@ -41,7 +41,7 @@ const scott_alexander_questions_with_explicit_time = [
 
   `Will Donald Trump make at least one tweet? Resolves positively if the @realdonaldtrump account tweets with Trump's implied approval, even if the tweet was written by an intern. Does not resolve positively if the account is hacked or tweets apparently without Trump's approval.`,
 
-  `At the end of 2023, will Joe Biden have a positive (approval minus dispproval) rating? See https://projects.fivethirtyeight.com/biden-approval-rating/ . Currently he is at 51% disapprove, 43% approve, so his approval - disapproval is -8 and this question would resolve as "no".`,
+  `At the end of 2023, will Joe Biden have a positive (approval minus dispproval) rating? See https://projects.fivethirtyeight.com/biden-approval-rating/ . Currently he is at 51% disapprove, 43% approve, so his approval - disapproval is -8 and this question would resolve as 'no'.`,
 
   `Will Donald Trump get indicted on criminal charges?`,
 
